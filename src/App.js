@@ -12,7 +12,7 @@ import Footer from './Components/Footer/Footer'
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL || ''}>
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/portfolio" component={Portfolio} />
       </Router>
