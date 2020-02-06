@@ -1,0 +1,6 @@
+.Portfolio{
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}

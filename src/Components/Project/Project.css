@@ -1,0 +1,41 @@
+.Project{
+  width: 45%;
+  margin: 2%;
+  box-shadow: 5px 5px 5px gray;
+}
+.Project img{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: -5px;
+}
+.Project-info{
+  background-color: #5C0318;
+  color: #FFFFCC;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.Project-links{
+  margin: -1em 0 1em 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Project h3{
+  text-align: center;
+  font-size: 2em;
+}
+.Project a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+  .Project {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .Project h3{
+    text-align: center;
+    font-size: 1em;
+  }
+}

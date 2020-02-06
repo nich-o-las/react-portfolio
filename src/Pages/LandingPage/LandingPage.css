@@ -1,0 +1,49 @@
+.LandingPage{
+  padding-top: 20px;
+  width: 90vw;
+  margin: auto;
+}
+#profileImage{
+  width: 33%;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+.LandingPage-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.LandingPage-linkGroup{
+  margin: 1%;
+  text-align: center;
+}
+.LandingPage-linkGroup a{
+  color: inherit;
+  text-decoration: none;
+}
+.LandingPage-clickable{
+  overflow: hidden;
+  font-size: 5em;
+  margin: auto;
+}
+#resumeGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1000px) {
+  #profileImage {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #profileImage {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 504px) {
+  .LandingPage{
+    width: 100%;
+  }
+}

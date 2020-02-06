@@ -1,0 +1,45 @@
+.Navbar{
+  background-color: #DF5757;
+  padding: .5em 5%;
+  box-shadow: 0px 5px 5px gray;
+}
+.Navbar-brand{
+  font-weight: bold;
+  font-size: 1.5em;
+  border: none;
+}
+.Navbar-link{
+  display: inline-block;
+  padding: 0 1em;
+  text-decoration: none;
+  color: inherit;
+  border-left: 1px solid #5C0318;
+}
+
+.Navbar-link:first-child{
+  border: none;
+}
+
+@media only screen and (max-width: 574px) {
+  #bioLink{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 504px) {
+  .Navbar{
+    padding: .5em 0;
+  }
+}
+
+@media only screen and (max-width: 357px) {
+  .Navbar{
+    display: flex;
+    flex-direction: column;
+  }
+  .Navbar-link{
+    padding: .5em;
+    border: none;
+    border-top: 1px solid #5C0318;
+  }
+}
