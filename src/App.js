@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route
 } from "react-router-dom";
 import './App.css';
@@ -12,7 +12,7 @@ import Footer from './Components/Footer/Footer'
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL || ''}>
+      <Router>
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/portfolio" component={Portfolio} />
       </Router>
