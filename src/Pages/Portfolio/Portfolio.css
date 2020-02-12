@@ -4,3 +4,11 @@
   display: flex;
   flex-wrap: wrap;
 }
+.Portfolio-descriptor{
+  margin: 1em auto 0 auto;
+  width: 85vw;
+}
+.Portfolio-descriptor a{
+  text-decoration: underline;
+  color: inherit;
+}
