@@ -37,8 +37,8 @@ export default function LandingPage(){
           </div>
           <div id="resumeGroup" className="LandingPage-linkGroup">
             <ModalImage
-              small="https://res.cloudinary.com/dvqaajrs0/image/upload/c_thumb,w_200,g_face/v1580942599/ncResumeFeb2020.png"
-              large="https://res.cloudinary.com/dvqaajrs0/image/upload/v1580942599/ncResumeFeb2020.png"
+              small="https://res.cloudinary.com/dvqaajrs0/image/upload/v1581806491/crResume.png"
+              large="https://res.cloudinary.com/dvqaajrs0/image/upload/v1581806491/crResume.png"
               alt="Nick Cox Resume"
             />
             <p>Resume</p>
