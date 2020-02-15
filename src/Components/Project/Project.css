@@ -1,23 +1,28 @@
 .Project{
   width: 45%;
+  padding: 0;
   margin: 2%;
   box-shadow: 5px 5px 5px gray;
+  display: flex;
+  flex-direction: column;
 }
 .Project img{
   width: 100%;
   overflow: hidden;
-  margin-bottom: -5px;
 }
 .Project-info{
   background-color: #5C0318;
   color: #FFFFCC;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 .Project-links{
   margin: -1em 0 1em 0;
   display: flex;
   justify-content: space-evenly;
+}
+.Project-tools{
+  background-color: #5C0318;
+  color: #FFFFCC;
+  text-align: center;
 }
 .Project h3{
   text-align: center;

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Project.css'
 
-export default function Project({title, github, deployed, image}){
+export default function Project({title, github, deployed, image, tools}){
   return(
     <div className="Project">
       <div className="Project-info">
@@ -12,6 +12,9 @@ export default function Project({title, github, deployed, image}){
         </div>
       </div>
       <img alt={title} src={image} />
+      <div className="Project-tools">
+        <p><b>Tools used: </b>{tools}</p>
+      </div>
     </div>
   )
 }
