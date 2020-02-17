@@ -24,6 +24,18 @@ export default function LandingPage(){
         </p>
         <div className="LandingPage-links">
           <div className="LandingPage-linkGroup">
+            <a href="mailto:nick.a.cox@gmail.com"><i className="fa fa-envelope LandingPage-clickable"></i></a>
+            <p><b>Email: </b>nick.a.cox@gmail.com</p>
+          </div>
+          <div id="resumeGroup" className="LandingPage-linkGroup">
+            <ModalImage
+              small="https://res.cloudinary.com/dvqaajrs0/image/upload/v1581808094/crResume.png"
+              large="https://res.cloudinary.com/dvqaajrs0/image/upload/v1581808094/crResume.png"
+              alt="Nick Cox Resume"
+            />
+            <p>Resume</p>
+          </div>
+          <div className="LandingPage-linkGroup">
             <a target="blank" href="https://github.com/nich-o-las">
               <i className="fa fa-github LandingPage-clickable"></i>
               <p>Github Profile</p>
@@ -34,14 +46,6 @@ export default function LandingPage(){
               <i className="fa fa-linkedin LandingPage-clickable"></i>
               <p>LinkedIn Profile</p>
             </a>
-          </div>
-          <div id="resumeGroup" className="LandingPage-linkGroup">
-            <ModalImage
-              small="https://res.cloudinary.com/dvqaajrs0/image/upload/v1581806491/crResume.png"
-              large="https://res.cloudinary.com/dvqaajrs0/image/upload/v1581806491/crResume.png"
-              alt="Nick Cox Resume"
-            />
-            <p>Resume</p>
           </div>
         </div>
       </div>

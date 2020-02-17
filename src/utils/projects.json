@@ -10,7 +10,7 @@
   {
     "title":"Garaged",
     "github":"https://github.com/EricEnergy/garaged",
-    "deployed":"https://whispering-dusk-10991.herokuapp.com/index",
+    "deployed":"http://garaged-app.herokuapp.com/",
     "image": "https://res.cloudinary.com/dvqaajrs0/image/upload/v1581803847/garageCropped.png",
     "tools": "Node, Express, JavaScript/JQuery, Handlebars, Bootstrap"
   },
