@@ -4,6 +4,7 @@
     "github": "https://github.com/nich-o-las/promptsGame",
     "deployed": "https://game-of-prompts.herokuapp.com/",
     "image": "https://res.cloudinary.com/dvqaajrs0/image/upload/v1581803844/croppedPrompts.png",
+    "description": "Multiplayer promt-based party game.",
     "tools": "React, Redux, Express, Node, MongoDB"
 
   },
@@ -12,6 +13,7 @@
     "github":"https://github.com/EricEnergy/garaged",
     "deployed":"http://garaged-app.herokuapp.com/",
     "image": "https://res.cloudinary.com/dvqaajrs0/image/upload/v1581803847/garageCropped.png",
+    "description": "Multi-user, AirBnB-like app for renting garage space.",
     "tools": "Node, Express, JavaScript/JQuery, Handlebars, Bootstrap"
   },
   {
@@ -19,6 +21,7 @@
     "github":"https://github.com/nich-o-las/movieSearch",
     "deployed":"https://nich-o-las.github.io/movieSearch/",
     "image": "https://res.cloudinary.com/dvqaajrs0/image/upload/v1581803845/croppedReelStream.png",
+    "description": "Allows users to search for a movie and returns the poster, cast, plot, trailer, and other recommendations.",
     "tools": "Javascript/JQuery, MaterializeCSS, YouTube API, OMDB API, TMDB API"
   },
   {
@@ -26,6 +29,7 @@
     "github":"https://github.com/nich-o-las/calendar_project",
     "deployed":"https://nich-o-las.github.io/calendar_project/",
     "image": "https://res.cloudinary.com/dvqaajrs0/image/upload/v1581803844/croppedScheduler.png",
+    "description": "Planner app that allows users to schedule their work day hour by hour.",
     "tools": "Javascript/JQuery, MomentJS"
   }
 ]

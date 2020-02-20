@@ -8,6 +8,10 @@
   float: left;
   margin: 0 5px 5px 0;
 }
+#LandingPage-aboutMe{
+  border-bottom: 1px solid#5C0318;
+  overflow: hidden;
+}
 .LandingPage-links{
   display: flex;
   flex-wrap: wrap;
@@ -40,10 +44,14 @@
   #profileImage {
     width: 100%;
   }
+
 }
 
 @media only screen and (max-width: 504px) {
   .LandingPage{
     width: 100%;
+  }
+  .LandingPage-clickable{
+    font-size: 2em;
   }
 }

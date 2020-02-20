@@ -9,8 +9,7 @@ export default function LandingPage(){
       <NavBar active="Bio"/>
       <div className="LandingPage">
         <img id="profileImage" alt="Nicholas Cox" src="https://res.cloudinary.com/dvqaajrs0/image/upload/v1578069797/bjkz2zsbktlam8gomk6u.jpg"/>
-        <h2>About Me</h2>
-        <hr />
+        <h2 id="LandingPage-aboutMe">About Me</h2>
         <p>Full-Stack Web Developer leveraging a background in music and customer service to work 
           in harmony with other developers and create positive user experiences. Earned a Bachelor’s 
           Degree in Web Journalism from the University Of Memphis in 2015, and a certificate in Full 

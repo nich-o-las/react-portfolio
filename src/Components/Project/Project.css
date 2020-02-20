@@ -5,24 +5,20 @@
   box-shadow: 5px 5px 5px gray;
   display: flex;
   flex-direction: column;
+  background-color: #5C0318;
+  color: #FFFFCC;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .Project img{
   width: 100%;
   overflow: hidden;
 }
-.Project-info{
-  background-color: #5C0318;
-  color: #FFFFCC;
-}
 .Project-links{
   margin: -1em 0 1em 0;
   display: flex;
   justify-content: space-evenly;
-}
-.Project-tools{
-  background-color: #5C0318;
-  color: #FFFFCC;
-  text-align: center;
 }
 .Project h3{
   text-align: center;
